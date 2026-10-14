@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="default-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; base-uri 'none'; form-action 'none'" http-equiv="Content-Security-Policy"/>
+<meta content="no-referrer" name="referrer"/>
+<meta content="light dark" name="color-scheme"/>
+<meta content="#2457d6" name="theme-color"/>
+<meta content="Jeremi Richan Tossy Ratodisoa" name="author"/>
+<meta content="index, follow, max-image-preview:large" name="robots"/>
+<meta content="website" property="og:type"/>
+<meta content="fr_FR" property="og:locale"/>
+<meta content="Jeremi Richan Tossy Ratodisoa — Portfolio IT" property="og:title"/>
+<meta content="Administration systèmes et réseaux, cybersécurité et développement web full-stack." property="og:description"/>
+<meta content="summary" name="twitter:card"/>
+<link href="favicon.svg" rel="icon" type="image/svg+xml"/>
+<meta content="Portfolio de Jeremi Richan Tossy Ratodisoa : administration systèmes et réseaux, cybersécurité et développement web full-stack. Étudiant MIT-MISA en systèmes, réseaux, cybersécurité et développement web full-stack." name="description"/>
+<title>Jeremi Richan Tossy Ratodisoa | Portfolio IT &amp; Cybersécurité</title>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Jeremi Richan Tossy Ratodisoa",
+  "email": "jeremirichantossy@gmail.com",
+  "telephone": "+261 38 980 44 12",
+  "address": {"@type": "PostalAddress", "addressLocality": "Antananarivo", "addressCountry": "MG"},
+  "alumniOf": {"@type": "EducationalOrganization", "name": "MIT-MISA"},
+  "knowsAbout": ["Administration systèmes et réseaux", "Cybersécurité", "Développement web full-stack", "React", "Next.js", "Node.js", "PostgreSQL", "Neo4j", "Wazuh"],
+  "sameAs": ["https://github.com/JeremiRichan", "https://www.linkedin.com/in/jeremi-richan-tossy-a81b6831a"]
+}</script>
+<style>
+:root{
+  color-scheme:light dark;
+  --bg:#f5f7fb;--surface:#fff;--ink:#172033;--muted:#596579;--line:#dce3ed;
+  --accent:#2457d6;--accent-ink:#fff;--signal:#13a38b;--focus:#f59e0b;
+  --serif:Georgia,"Times New Roman",serif;
+  --sans:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --radius:1rem;--shadow:0 14px 36px rgba(25,45,80,.07);
+}
+@media(prefers-color-scheme:dark){
+  :root{--bg:#0b1220;--surface:#121d2e;--ink:#eef3ff;--muted:#aab7cc;--line:#29374c;--accent:#8aaaff;--accent-ink:#101a30;--signal:#51d8bf;--focus:#ffd166;--shadow:0 14px 36px rgba(0,0,0,.2)}
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:6rem;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:1rem/1.7 var(--sans);overflow-wrap:break-word}
+::selection{background:var(--accent);color:var(--accent-ink)}
+nav a, .btn{touch-action:manipulation}
+section{scroll-margin-top:5.5rem}
+a{color:var(--accent);text-underline-offset:.22em}
+a:hover{text-decoration-thickness:2px}
+:focus-visible{outline:3px solid var(--focus);outline-offset:4px;border-radius:.25rem}
+img{max-width:100%;display:block}
+.wrap{width:min(100% - 2.25rem,72rem);margin-inline:auto}
+.vh{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.skip{position:absolute;left:1rem;top:-5rem;background:var(--ink);color:var(--bg);padding:.75rem 1rem;z-index:100;border-radius:.5rem}
+.skip:focus{top:1rem}
+header.site{position:sticky;top:0;z-index:50;background:var(--bg);background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+header.site .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.6rem 1.5rem;padding-block:.8rem}
+.brand{font-weight:800;letter-spacing:-.03em;color:var(--ink);text-decoration:none}
+nav ul{display:flex;flex-wrap:wrap;gap:.2rem .9rem;list-style:none;margin:0;padding:0}
+nav a{display:inline-block;padding:.35rem .1rem;color:var(--muted);text-decoration:none;font-size:.93rem;border-bottom:2px solid transparent}
+nav a:hover,nav a:focus-visible{color:var(--accent);border-color:var(--accent)}
+h1,h2,h3{font-family:var(--serif);line-height:1.15;letter-spacing:-.025em;text-wrap:balance}
+h1{font-size:clamp(2.55rem,6vw,4.8rem);margin:0 0 1rem}
+h2{font-size:clamp(1.8rem,3.5vw,2.5rem);margin:0 0 1.4rem}
+h3{font-size:1.25rem;margin:0 0 .55rem}
+p{margin:0 0 1rem;max-width:72ch}
+section{padding-block:clamp(3.5rem,7vw,6rem)}
+section+section{border-top:1px solid var(--line)}
+#accueil{padding-top:clamp(3.5rem,8vw,7rem)}
+.hero{display:grid;gap:2.25rem;grid-template-columns:1fr;align-items:center}
+@media(min-width:58rem){.hero{grid-template-columns:minmax(0,1.35fr) minmax(19rem,.8fr)}}
+.hero h1 span{display:block;color:var(--accent);font:700 clamp(1.05rem,2vw,1.45rem)/1.45 var(--sans);letter-spacing:0;margin-top:1.1rem;max-width:35ch}
+.lead{font-size:clamp(1.08rem,2vw,1.25rem);color:var(--muted);max-width:62ch}
+.btns{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:1.5rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:.78rem 1.1rem;border-radius:.65rem;font-weight:700;text-decoration:none;border:1px solid var(--accent);min-height:46px;transition:transform .18s ease,background .18s ease}
+.btn:hover{transform:translateY(-2px)}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{color:var(--accent);background:transparent}
+.btn.ghost:hover{background:color-mix(in srgb,var(--accent) 9%,transparent)}
+.sheet,.panel,.project{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.sheet{padding:1.5rem}
+.sheet .id{display:flex;gap:1rem;align-items:center;margin-bottom:1.35rem}
+.sheet img{width:5.2rem;height:5.2rem;border-radius:1rem;object-fit:cover;border:2px solid var(--line)}
+.sheet h2{font:700 .8rem var(--mono);letter-spacing:.08em;text-transform:uppercase;margin:0;color:var(--muted)}
+.sheet dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:.8rem 1rem}
+.sheet dt{font:.78rem var(--mono);color:var(--muted)}
+.sheet dd{margin:0;font-weight:650;overflow-wrap:anywhere}
+.status{display:inline-flex;align-items:center;gap:.45rem}
+.status::before{content:"";flex:none;width:.55rem;height:.55rem;border-radius:50%;background:var(--signal)}
+.cols{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr))}
+.panel{padding:1.5rem}
+.panel h3{margin-bottom:1rem}
+.tags{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.5rem}
+.tags li{border:1px solid var(--line);background:var(--bg);padding:.3rem .7rem;border-radius:.5rem;font-size:.9rem;color:var(--muted)}
+.projects{display:grid;gap:1rem}
+.project{padding:1.5rem;display:grid;gap:.7rem}
+@media(min-width:48rem){.project{grid-template-columns:minmax(12rem,.72fr) minmax(0,1.5fr);gap:2rem;padding:1.7rem}}
+.project h3{margin:0 0 .4rem}
+.kind{font:.78rem var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--signal);margin:0 0 .5rem}
+.project p:last-child{margin-bottom:0}
+.project a{font-weight:700}
+.project a:focus-visible{outline-offset:5px}
+.btn{cursor:pointer}
+@media(max-width:38rem){.wrap{width:min(100% - 1.25rem,72rem)}header.site .wrap{align-items:flex-start;flex-direction:column;gap:.25rem}nav ul{gap:.1rem .75rem}nav a{font-size:.88rem}.sheet{padding:1.1rem}.sheet dl{grid-template-columns:1fr;gap:.15rem}.sheet dd{margin-bottom:.65rem}.sheet dt{margin-top:.25rem}.project{padding:1.15rem}}
+.note{color:var(--muted);margin-top:.7rem}
+.timeline{list-style:none;margin:0;padding:0 0 0 1.35rem;border-left:2px solid var(--line)}
+.timeline li{position:relative;padding:0 0 1.8rem 1.2rem}
+.timeline li:last-child{padding-bottom:0}
+.timeline li::before{content:"";position:absolute;left:-1.82rem;top:.35rem;width:.8rem;height:.8rem;border-radius:50%;background:var(--accent);border:3px solid var(--bg)}
+.timeline time{font:.8rem var(--mono);color:var(--muted)}
+.timeline h3{margin:.25rem 0 .35rem}
+.timeline p{margin-bottom:0;color:var(--muted)}
+.contact{background:var(--ink);color:var(--bg);border-radius:1.2rem;padding:clamp(1.8rem,5vw,3.5rem)}
+.contact p{color:color-mix(in srgb,var(--bg) 78%,transparent)}
+.contact .btn.primary{background:var(--bg);color:var(--ink);border-color:var(--bg)}
+.contact .btn.ghost{color:var(--bg);border-color:color-mix(in srgb,var(--bg) 50%,transparent)}
+.contact .btn.ghost:hover{background:color-mix(in srgb,var(--bg) 12%,transparent)}
+@media(prefers-color-scheme:dark){.contact{background:var(--surface);color:var(--ink);border:1px solid var(--line)}.contact p{color:var(--muted)}.contact .btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}.contact .btn.ghost{color:var(--accent);border-color:var(--accent)}}
+footer{padding-block:2rem;color:var(--muted);font-size:.9rem}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}.btn:hover{transform:none}}
+@media(forced-colors:active){.btn,.sheet,.panel,.project{border:2px solid CanvasText}}
+@media print{header.site,.btns{display:none}body{background:#fff;color:#000}section{padding-block:1.2rem}.sheet,.panel,.project{box-shadow:none;break-inside:avoid}}
+</style>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu principal</a>
+<header class="site">
+<div class="wrap">
+<a class="brand" href="#accueil">Jeremi R. T. Ratodisoa</a>
+<nav aria-label="Navigation principale">
+<ul>
+<li><a href="#apropos">À propos</a></li>
+<li><a href="#competences">Compétences</a></li>
+<li><a href="#projets">Projets</a></li>
+<li><a href="#parcours">Parcours</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main id="contenu">
+<section aria-labelledby="titre-accueil" id="accueil">
+<div class="wrap hero">
+<div>
+<h1 id="titre-accueil">Jeremi Richan Tossy Ratodisoa <span>Systèmes &amp; réseaux, cybersécurité, développement web</span></h1>
+<p class="lead">Étudiant en Informatique et Technologies à MIT-MISA, je m’intéresse à l’administration systèmes et réseaux, à la cybersécurité et au développement web full-stack. Je travaille avec les technologies réseau, les outils de supervision et les bases de données pour concevoir des solutions utiles et fiables.</p>
+<div class="btns">
+<a class="btn primary" href="#contact">Me contacter</a>
+<a class="btn ghost" href="#projets">Voir mes projets</a>
+<a class="btn ghost" download="" href="cv-systemes-reseaux-cybersecurite.pdf">Télécharger le CV IT / cybersécurité (PDF)</a>
+<a class="btn ghost" download="" href="cv-developpeur-web-full-stack.pdf">Télécharger le CV développeur (PDF)</a>
+</div>
+</div>
+<aside aria-labelledby="titre-fiche" class="sheet">
+<div class="id">
+<img alt="Portrait de Jeremi Richan Tossy Ratodisoa, en veste noire et lunettes" height="88" src="data:image/webp;base64,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" width="88"/>
+<h2 id="titre-fiche">Fiche de synthèse</h2>
+</div>
+<dl>
+<dt>Statut</dt><dd><span class="status">Disponible immédiatement</span></dd>
+<dt>Recherche</dt><dd>Stage ou premier emploi</dd>
+<dt>Profils</dt><dd>Admin systèmes et réseaux, cybersécurité, web full-stack</dd>
+<dt>Formation</dt><dd>Étudiant en Informatique et Technologies, MIT-MISA</dd>
+<dt>Lieu</dt><dd>Antananarivo, Madagascar. Télétravail possible, avec solutions de secours réseau et électricité.</dd>
+<dt>Langues</dt><dd>Français, anglais (certification C2)</dd>
+</dl>
+</aside>
+</div>
+</section>
+<section aria-labelledby="titre-apropos" id="apropos">
+<div class="wrap">
+<h2 id="titre-apropos">À propos</h2>
+<p>Étudiant en Informatique et Technologies à MIT-MISA, je me spécialise dans l'administration des systèmes et réseaux et dans la cybersécurité. Je sais concevoir une architecture réseau, déployer un VPN et un pare-feu, superviser une infrastructure (SOC/NOC) avec le SIEM Wazuh, et mener des tests d'intrusion pour éprouver sa sécurité.</p>
+<p>J'ai aussi un profil de développeur : je transforme des idées encore floues en outils fonctionnels avec React, Next.js et Node.js, en bases de données relationnelles et graphe, et en automatisation (n8n, Make, Zapier).</p>
+<p>Mon expérience d'enseignant en informatique et en anglais m'a appris à expliquer des sujets techniques à un public non technique, ce qui aide beaucoup dans un travail d'équipe. En dehors de l'informatique, je pratique le kung fu depuis six ans, une discipline qui m'apprend la rigueur et la maîtrise de soi, et je m'engage dans des activités associatives.</p>
+</div>
+</section>
+<section aria-labelledby="titre-competences" id="competences">
+<div class="wrap">
+<h2 id="titre-competences">Compétences</h2>
+<div class="cols">
+<div class="panel">
+<h3>Systèmes, réseaux et sécurité</h3>
+<ul class="tags">
+<li>Architecture de réseaux</li><li>VPN</li><li>Pare-feu</li><li>SIEM Wazuh</li>
+<li>SOC / NOC</li><li>Tests d'intrusion</li><li>Windows</li><li>Debian</li>
+<li>Ubuntu</li><li>Arch Linux</li><li>Maintenance matériel</li>
+</ul>
+</div>
+<div class="panel">
+<h3>Développement et données</h3>
+<ul class="tags">
+<li>JavaScript (ES6+)</li><li>Python</li><li>Java</li><li>C / C++</li>
+<li>React.js</li><li>Next.js</li><li>Node.js</li><li>API REST</li><li>HTML / CSS</li>
+<li>MySQL</li><li>PostgreSQL</li><li>Neo4j (Cypher)</li>
+</ul>
+</div>
+<div class="panel">
+<h3>Automatisation et méthode</h3>
+<ul class="tags">
+<li>n8n</li><li>Make</li><li>Zapier</li><li>Git / GitHub</li>
+<li>Gestion de projet</li><li>Management d'équipe</li><li>Rigueur</li>
+<li>Esprit critique</li><li>Pédagogie</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="titre-projets" id="projets">
+<div class="wrap">
+<h2 id="titre-projets">Projets</h2>
+<div class="projects">
+<article class="project">
+<div>
+<p class="kind">Application web</p>
+<h3>MeshCore</h3>
+<p class="note" style="margin:0">React, Next.js</p>
+</div>
+<div>
+<p>Application web développée avec React et Next.js et déployée en ligne.</p>
+<p><a href="https://jeremirichan.github.io/Meshcore" rel="noopener noreferrer" target="_blank">Voir le site<span class="vh"> MeshCore</span></a></p>
+</div>
+</article>
+<article class="project">
+<div>
+<p class="kind">Application full-stack</p>
+<h3>Tranom-boly connecté</h3>
+<p class="note" style="margin:0">React, Node.js</p>
+</div>
+<div>
+<p>Application web full-stack, avec une interface React et un serveur Node.js, déployée en ligne.</p>
+<p><a href="https://jeremirichan.github.io/Tranom-boly-connecte" rel="noopener noreferrer" target="_blank">Voir le site<span class="vh"> Tranom-boly connecté</span></a></p>
+</div>
+</article>
+<article class="project">
+<div>
+<p class="kind">Données</p>
+<h3>Scraper Facebook</h3>
+<p class="note" style="margin:0">Node.js, Neo4j</p>
+</div>
+<div>
+<p>Collecte automatisée de données, stockées dans une base de données graphe Neo4j et interrogées avec le langage Cypher.</p>
+<p><a href="https://github.com/JeremiRichan" rel="noopener noreferrer" target="_blank">Explorer les dépôts GitHub<span class="vh"> (Scraper Facebook)</span></a></p>
+</div>
+</article>
+<article class="project">
+<div>
+<p class="kind">Application de gestion</p>
+<h3>PRESENCE</h3>
+<p class="note" style="margin:0">HTML, JavaScript, MySQL</p>
+</div>
+<div>
+<p>Application de gestion et de suivi des présences, connectée à une base de données MySQL.</p>
+<p><a href="https://github.com/JeremiRichan" rel="noopener noreferrer" target="_blank">Explorer les dépôts GitHub<span class="vh"> (PRESENCE)</span></a></p>
+</div>
+</article>
+<article class="project">
+<div>
+<p class="kind">Automatisation</p>
+<h3>Scraping de données</h3>
+<p class="note" style="margin:0">Python</p>
+</div>
+<div>
+<p>Extraction automatisée de données web en Python.</p>
+<p><a href="https://github.com/JeremiRichan" rel="noopener noreferrer" target="_blank">Explorer les dépôts GitHub<span class="vh"> (scraping de données)</span></a></p>
+</div>
+</article>
+</div>
+</div>
+</section>
+<section aria-labelledby="titre-parcours" id="parcours">
+<div class="wrap">
+<h2 id="titre-parcours">Parcours</h2>
+<ol class="timeline">
+<li>
+<time datetime="2025-10">10/2025 – 05/2026</time>
+<h3>Opérateur de saisie</h3>
+<p>Analamahitsy, Antananarivo. Saisie et traitement de données avec rigueur et rapidité, gestion des demandes clients et résolution de problèmes au quotidien.</p>
+</li>
+<li>
+<time datetime="2024-01">01/2024 – aujourd'hui</time>
+<h3>Étudiant en Informatique et Technologies</h3>
+<p>MIT-MISA, Antananarivo. Administration des systèmes et réseaux, cybersécurité, gestion d'infrastructures, programmation et développement web, bases de données.</p>
+</li>
+<li>
+<time datetime="2023-07">07/2023</time>
+<h3>Enseignant en informatique bureautique</h3>
+<p>SATI et INS PALM, Ambatondrazaka. Formation d'utilisateurs à Word, Excel et PowerPoint, et vulgarisation d'outils numériques auprès d'un public non technique.</p>
+</li>
+<li>
+<time datetime="2022-10">10/2022 – 03/2023</time>
+<h3>Certification C2 en langue anglaise</h3>
+<p>ITTI, Antananarivo.</p>
+</li>
+<li>
+<time datetime="2022-06">06/2022 – 01/2023</time>
+<h3>Enseignant d'anglais</h3>
+<p>FLTC, Ambatondrazaka. Enseignement de l'anglais à des débutants (grammaire, vocabulaire, expression orale), avec une pédagogie adaptée au niveau des apprenants.</p>
+</li>
+<li>
+<time datetime="2020-07">07/2020 – 07/2021</time>
+<h3>Certificat Informatique Bureautique</h3>
+<p>SATI, Ambatondrazaka.</p>
+</li>
+</ol>
+</div>
+</section>
+<section aria-labelledby="titre-contact" id="contact">
+<div class="wrap">
+<div class="contact">
+<h2 id="titre-contact">Travaillons ensemble</h2>
+<p>Je souhaite rejoindre une équipe IT pour un stage ou une première expérience professionnelle en administration systèmes et réseaux, cybersécurité ou développement web.</p>
+<div class="btns">
+<a class="btn primary" href="mailto:jeremirichantossy@gmail.com">Envoyer un courriel</a>
+<a class="btn ghost" href="tel:+261389804412">Appeler : +261 38 980 44 12</a>
+<a class="btn ghost" href="https://www.linkedin.com/in/jeremi-richan-tossy-a81b6831a" rel="noopener noreferrer" target="_blank">Profil LinkedIn</a>
+<a class="btn ghost" href="https://github.com/JeremiRichan" rel="noopener noreferrer" target="_blank">Profil GitHub</a>
+<a class="btn ghost" download="" href="cv-systemes-reseaux-cybersecurite.pdf">CV Systèmes, réseaux et cybersécurité (PDF)</a>
+<a class="btn ghost" download="" href="cv-developpeur-web-full-stack.pdf">CV Développeur web full-stack (PDF)</a>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<div class="wrap">
+<p>© 2026 Jeremi Richan Tossy Ratodisoa.</p>
+</div>
+</footer>
+<!--
+MISE EN LIGNE SÉCURISÉE
+1. Placez ce fichier (renommé index.html) et vos deux CV PDF dans le même dossier, puis hébergez-le sur GitHub Pages, Netlify ou Cloudflare Pages (HTTPS automatique).
+2. En-têtes HTTP à activer si possible (Netlify : fichier _headers) :
+   Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
+   X-Content-Type-Options: nosniff
+   Referrer-Policy: no-referrer
+   Permissions-Policy: camera=(), microphone=(), geolocation=()
+   Strict-Transport-Security: max-age=63072000; includeSubDomains
+3. Testez avec Lighthouse, WAVE et securityheaders.com.
+-->
+</body>
+</html>
